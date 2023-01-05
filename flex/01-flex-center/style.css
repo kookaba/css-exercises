@@ -13,3 +13,25 @@
   width: 80px;
   height: 80px;
 }
+
+/* My Solution */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  align-self: center;
+}
+
+/*
+I realize after seeing the solution that
+I cold have kept the whole solution inside
+.container but I tried using 'align-content'
+instead of 'align-items' and I wasn't sure 
+why it wasn't working. 
+
+I have brushed up on this now and I know that
+align-content is for multiple lines of flexboxes.
+*/
+
