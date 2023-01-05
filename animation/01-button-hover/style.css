@@ -9,6 +9,7 @@
 }
 
 button {
+  transition-duration: 1s; /* duration of transition back to normal */
   border-radius: 8px;
   border: none;
   background-color: #2563eb;
@@ -17,3 +18,10 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+/* my solution */
+button:hover {
+  scale: 120%; /*scale up to 120% */
+  transition-duration: 1s; /* duration of transition to 120% */
+}
+
+/* different than the actual solution but I stand by my attempt */
