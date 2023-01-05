@@ -61,3 +61,16 @@ button {
   opacity: 30%;
 }
 
+/* My Solution */
+.popup-modal {
+  top: 25%;
+  transition: opacity 1s, top 1s;
+}
+
+.popup-modal.show {
+  opacity: 100%;
+  top: 50%;
+}
+
+ /* In the solution they use transform: translate but it
+accomplishes the same thing. I think I like the way I did it better. */
