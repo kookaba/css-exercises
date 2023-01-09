@@ -24,3 +24,36 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.information {
+  display: flex;
+  align-items: flex-start;
+  gap: 52px;
+  padding-top: 32px;
+
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  flex: 1;
+}
+.text {
+  align-items: flex-start;
+  text-align: center;
+}
+
+/*
+I'm pretty proud of this one.
+My CSS my still be too verbose but it is a litle cleaner
+I also matched the desired-outcome.png almost exactly.
+*/
