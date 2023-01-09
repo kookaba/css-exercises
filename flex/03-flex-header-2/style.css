@@ -46,3 +46,37 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* My Solution */
+
+.header, .left, .right {
+  display: flex;
+  align-items: center;
+  padding
+}
+.left, .right, .links {
+  gap: 8px;
+}
+.left {
+  margin-left: 2%;
+}
+.right {
+  margin-right: 2%;
+}
+.header {
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+After looking at the solution I want to
+work on cleaning up my CSS and making it
+more concise
+
+I'm also going to try to use better Git documentation.
+*/
