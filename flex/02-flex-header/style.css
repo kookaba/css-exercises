@@ -25,18 +25,27 @@ a {
 }
 
 /* My Solution */
-
 .header {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   align-items: center;
-  justify-content: space-evenly;
+  padding: 10px 0px;
 }
 ul {
   display: flex;
+  gap: 10%;
   justify-content: space-evenly;
-  width: 20%;
+  margin: 0;
+  padding: 0;
+  
 }
 .logo {
-  text-align: center;
-  width: 10%;
+  justify-content: center;
+}
+.left-links {
+  margin-left: 5%;
+}
+.right-links {
+  margin-right: 5%;
 }
