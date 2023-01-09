@@ -28,7 +28,6 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
   padding: 10px 0px;
 }
@@ -40,12 +39,15 @@ ul {
   padding: 0;
   
 }
-.logo {
-  justify-content: center;
-}
 .left-links {
   margin-left: 5%;
 }
 .right-links {
   margin-right: 5%;
 }
+
+/*
+My solution is ugly compared to the real one
+I was close but I had a lot of needless CSS
+Removing the bits I don't need
+*/
