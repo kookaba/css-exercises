@@ -67,19 +67,34 @@ button.cancel {
 
 /* My Solution */
 
-.modal * {
-  border: 1px solid red;
+.modal {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.modal, .big-column, .top-row {
+.big-column, .top-row {
   display: flex;
 }
 .icon {
-  margin: 10px;
+  flex-shrink: 0;
 }
 .big-column {
   flex-direction: column;
-  flex-shrink: 1;
+  padding-left: 10px;
 }
 .top-row {
   flex-direction: row;
+  justify-content: space-between;
 }
+.header {
+  font-weight: bold;
+}
+.buttons {
+  padding: 10px 0;
+}
+
+/*
+I'm sure my solution can be cleaned up
+but I need to go take a break.
+*/
