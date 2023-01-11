@@ -39,7 +39,7 @@ body {
 
 .header, .footer {
   justify-content: space-between;
-  margin: 20px;
+  width: 100%;
 }
 
 .left-links, .right-links {
@@ -56,7 +56,7 @@ body {
 }
 
 ul {
-  padding: 0;
+  padding: 0 20px;
 }
 
 .left-links li a, .right-links li a {
@@ -69,5 +69,6 @@ ul {
 }
 
 .footer {
-  background-color: #eee;
+  background-color: #eeeeee;
 }
+
