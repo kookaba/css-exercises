@@ -26,3 +26,70 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My Solution */
+
+body, .main, .header, .footer, .card-container, .sidebar ul {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+
+.header-text {
+  margin-left: 16px;
+  font-size: 32px;
+  font-weight: 900;
+  align-self: center;
+}
+
+.main {
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 16px;
+}
+
+.sidebar ul {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-container {
+  padding: 32px;
+  flex: 5;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  min-width: 300px;
+  width: 30%;
+  padding: 10px;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+After doing all of these exercises I think
+I could probably go back and complete them with
+better html and css. I think I will save that for
+the future though.
+*/
